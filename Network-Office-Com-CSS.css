@@ -1,0 +1,158 @@
+/* font-family */
+
+body {
+}
+
+a,p,input,div,span,li,select,button {
+    font-family: arial;
+}
+
+p:empty{
+    background:red;
+    }
+/*** CSS for both topics listings and one post page ***/
+
+/* Posts */
+
+#lia-body.ForumPage .lia-component-forums-widget-message-list .custom-message-list-item {
+    background-color: whitesmoke;
+    padding: 5px 10px;
+    border: 1px solid grey;
+}
+
+/* Posted on */
+
+#lia-body.ForumPage .lia-component-forums-widget-message-list .custom-message-list-item .message-post-date span {
+    font-size: 11px;
+    color: grey
+;
+}
+
+/* Message subject*/
+
+#lia-body.ForumPage .lia-component-forums-widget-message-list .custom-message-list-item .message-subject h3 a {
+    font-size: .9em;
+    font-weight: bold;
+}
+
+#lia-body.ForumPage .lia-component-forums-widget-message-list .custom-message-list-item .message-subject {
+    margin: 0 0;
+    zoom: .9;
+    background: pink;
+}
+
+.lia-panel-message-content .lia-message-subject {
+    margin-bottom: 2px;
+}
+
+/* Message body */
+
+.lia-message-body, .lia-message-body-content p, .lia-message-body-content li, #lia-body.ForumPage .lia-component-forums-widget-message-list .custom-message-list-item .message-body {
+    font-size: 14px;
+}
+
+/* Tags */
+
+#lia-body.ForumPage .lia-component-forums-widget-message-list .custom-message-list-item .message-tags.TagList {
+    margin-top: 2px;
+}
+
+#lia-body.ForumPage .lia-component-forums-widget-message-list .custom-message-list-item .lia-tag-list-item {
+    background-color: none;
+    border-radius: 1px;
+    padding: 0px 15px ;
+    zoom: .8;
+}
+
+/* Message controls, Likes, View Full conversation*/
+
+#lia-body.ForumPage .lia-component-forums-widget-message-list .custom-message-list-item .message-controls {
+    text-align: center;
+    padding-top: 0px;
+    zoom: .8;
+}
+
+/*dark blue buttons*/
+
+#lia-body.ForumPage .lia-component-forums-widget-message-list .custom-message-list-item .message-controls .message-view-link {
+    padding-top: 0px;
+}
+
+/* Message reply*/
+
+#lia-body.ForumPage .lia-component-forums-widget-message-list .custom-message-list-item .message-add-reply {
+    margin-top: 0px;
+    padding: 0px 0 0px;
+    border-top: 1px solid #f3f3f3;
+    /* remove Reply option from UI*/
+    display: none;
+    zoom: .6
+;
+}
+
+/*Replies container*/
+
+#lia-body.ForumPage .lia-component-forums-widget-message-list .custom-message-list-item .message-replies {
+    margin-top: 0px;
+}
+
+/*Reply*/
+
+/*Reply author*/
+
+#lia-body.ForumPage .lia-component-forums-widget-message-list .custom-message-list-item .message-replies .message-reply .message-reply-body .reply-author {
+    color: dodgerblue;
+    font-size: 14px;
+}
+
+/*Reply body*/
+
+.lia-linear-display-message-view, #lia-body.ForumPage .lia-component-forums-widget-message-list .custom-message-list-item .message-replies .message-reply {
+    border-top: 1px solid wheat;
+    margin-top: 5px;
+    padding-bottom: 0px;
+    background: cornsilk;
+}
+
+#lia-body.ForumPage .lia-component-forums-widget-message-list .custom-message-list-item .message-replies .message-reply .message-reply-body {
+    font-size: 14px;
+}
+
+/*Replies alternating color*/
+
+.lia-linear-display-message-view:nth-child(even), #lia-body.ForumPage .lia-component-forums-widget-message-list .custom-message-list-item .message-replies .message-reply:nth-child(even) {
+    background: ivory;
+}
+
+/*undo white background color so we can use background color*/
+
+.lia-panel-message {
+    background: transparent
+    ;
+}
+
+/* Reply solution*/
+
+#lia-body.ForumPage .lia-component-forums-widget-message-list .custom-message-list-item .message-replies .message-reply.solution {
+    background-color: gold;
+    margin: 0px 0px;
+    padding: 5px 10px;
+    width: calc(100% + 0px);
+}
+
+.is-solution {
+    width: 10%;
+    margin: 0 0 0 0;
+    background: gold;
+    padding: 1px;
+    zoom: .86;
+}
+
+/*Highlight the persons I value*/
+
+a[href$='user-id/637'] , a[href$='user-id/184'] , a[href$='user-id/60'] , a[href$='user-id/172'] {
+    background: gold;
+    padding: 5px;
+    border: 1px solid silver;
+}
+
