@@ -19,3 +19,6 @@ https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-
 
 * https://developer.mozilla.org/en-US/docs/Web/API/Document/styleSheets
 
+## CSS Scoping (Shadow Dom)
+
+* http://robdodson.me/shadow-dom-css-cheat-sheet/
