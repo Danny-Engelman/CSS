@@ -22,3 +22,7 @@ https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-
 ## CSS Scoping (Shadow Dom)
 
 * http://robdodson.me/shadow-dom-css-cheat-sheet/
+
+## CSS Animations
+
+* Gallery of programmable CSS Animations: http://animista.net/
