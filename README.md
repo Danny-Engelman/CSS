@@ -26,3 +26,10 @@ https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-
 ## CSS Animations
 
 * Gallery of programmable CSS Animations: http://animista.net/
+
+## Presentations
+
+* You can use CSS for that 
+    
+    * https://youtu.be/TNhR6ol9mBc?list=PLEx5khR4g7PLS61IPnBCbpB3XjPfVGm-Q
+    * [slides](https://gotocon.com/dl/goto-berlin-2016/slides/RachelAndrew_YouCanUseCSSForThat.pdf)
